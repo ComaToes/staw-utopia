@@ -1,0 +1,143 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "73001",
+			"name": "U.S.S_Hathaway",
+			"releaseDate": "2015-11-03",
+			"parentSet": "Wave 20"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "u_s_s_hathaway_73001",
+			"set": ["73001"],
+			"name": "U.S.S. Hathaway",
+			"class": "Constellation Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","crew","crew"],
+			"attack": 3,
+			"agility": 1,
+			"hull": 4,
+			"shields": 3,
+			"cost": 22,
+			"text": "During the Actavation Phase, you may preform a second Action from your Action Bar as a free Action. If you do so place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["federation"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "federation_starship_73001",
+			"set": ["73001"],
+			"name": "Federation Starship",
+			"class": "Constellation Class",
+			"actions": ["evade","target-lock","scan","battlestations"],
+			"upgrades": ["tech","weapon","crew","crew"],
+			"attack": 3,
+			"agility": 1,
+			"hull": 4,
+			"shields": 2,
+			"cost": 20,
+			"text": "",
+			"unique": false,
+			"factions": ["federation"],
+			"squadron": false
+		}
+
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "william_t._riker_hathaway",
+			"set": ["73001"],
+			"name": "William T. Riker",
+			"cost": 4,
+			"skill": 7,
+			"talents": 1,
+			"text": "When attacking a ship with a larger Hull value than your ship. you roll +1 attack die. When defending against a ship with a larger Hull value then your ship. you roll +1 defense die.",
+			"unique": true,
+			"factions": ["federation"]
+		}
+	],
+	
+	"upgrades": [
+		{
+			"type": "talent",
+			"id": "improvise_hathaway",
+			"set": ["73001"],
+			"name": "Improvise",
+			"cost": 5,
+			"text": "During the COmbat Phase when attacking or defending. you may disable this card and any number of your other Upgrades to re-roll a number of your attack or defense dice equal the the number of Upgrades you disabled with this ability(not including this card)",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "crew",
+			"id": "wesley_crusher_hathaway",
+			"set": ["73001"],
+			"name": "Wesley Crusher",
+			"cost": 5,
+			"text": "At the Start of the game, place up to 3 federation "tech" Upgrades, each 4 SP or less, face down under this card. During the Actavation Phase, you may discard this card to flip one of these Upgrades face up and deploy it to your ship, even if it exceeds your ship's restrictions. If you do so, remove the other 2 face down Upgrades from the game and place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+				{
+			"type": "crew",
+			"id": "worf_hathaway",
+			"set": ["73001"],
+			"name": "Worf",
+			"cost": 5,
+			"text": "When defending, you may disable this card. If you do s the attacking ship rolls 1 fewer attack die and cannot spend "battlestations" or "target-lock" Tokens to modify its attack roll and your ship may roll its full defence dice in spite of the presence of any "scan" Tokens beside the attacking ship.",
+			"unique": true,
+			"factions": ["federation"]
+		},
+				{
+			"type": "crew",
+			"id": "geordi_la_forge_hathaway",
+			"set": ["73001"],
+			"name": "Geordi La Forge",
+			"cost": 5,
+			"text": "All of your "tech" Upgrades cost -1 SP./n/nWhen defending, during the Roll Defence Dice step, you may disable this card to roll 1 additional defence die for each "tech" Upgrade deployed to your ship (+2 max)",
+			"unique": true,
+			"factions": ["federation"]
+		},
+		{
+			"type": "tech",
+			"id": "navigational_station_hathaway",
+			"set": ["73001"],
+			"name": "Navigational Station",
+			"cost": 4,
+			"text": "After you prreform a green manever you may disable this card to immeditaly preform an "evade" Action as a free Action./n/nNo ship may be equiped with more than one "Navigational Station" Upgrade.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+				{
+			"type": "tech",
+			"id": "warp_jump_hathaway",
+			"set": ["73001"],
+			"name": "Warp Jump",
+			"cost": 5,
+			"text": "At the start of the Combat Phase before any attacks have been made, you my discard this card to remove your ship form the play area. At the end of the Combat Phase after all other ships have attacked, place your ship anywere in the play area but not within Range 1-3 of any other ship. All Tokens that were beside your ship are removed. You can not attack during the round in which you use this ability.",
+			"unique": false,
+			"factions": ["federation"]
+		},
+		{
+			"type": "weapon",
+			"id": "photon_torpedoes_hathaway",
+			"set": ["73001"],
+			"name": "Photon Torpedoes",
+			"cost": 5,
+			"attack": 5,
+			"range": "2 - 3",
+			"text": "ATTACK: (Target Lock)Spend your target lock and place 3 Time Tokens on this card to preform this attack./n/nYou may convert 1 of your "battlestations" into 1 [crit] result./n/nYou may fire this weapon form your forward or reaf fireing arcs.",
+			"unique": false,
+			"factions": ["federation"]
+		}
+	]
+
+}
