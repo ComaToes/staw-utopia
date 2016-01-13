@@ -1,0 +1,134 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "71192",
+			"name": "Halik Raider",
+			"releaseDate": "2015-11-01",
+			"parentSet": "Wave 20"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "halik_raider_71192",
+			"set": ["71192"],
+			"name": "Halik Raider",
+			"class": "Kazon Raider",
+			"actions": ["evade","target-lock","battlestations"],
+			"upgrades": ["weapon","weapon","crew","crew"],
+			"attack": 2,
+			"agility": 2,
+			"hull": 3,
+			"shields": 3,
+			"cost": 20,
+			"text": "When defending during the Roll Defense Dice step, you may disable one of your Active Shilds to gain +2 defence dice for that attack.",
+			"unique": true,
+			"factions": ["kazon"],
+			"squadron": false
+		},
+		{
+			"type": "ship",
+			"id": "kazon_starship_71192",
+			"set": ["71192"],
+			"name": "Kazon Starship",
+			"class": "Kazon Raider",
+			"actions": ["evade","target-lock","battlestations"],
+			"upgrades": ["weapon","crew","crew"],
+			"attack": 2,
+			"agility": 2,
+			"hull": 3,
+			"shields": 2,
+			"cost": 18,
+			"text": "",
+			"unique": false,
+			"factions": ["kazon"],
+			"squadron": false
+		}
+	],
+	
+	"captains": [
+		{
+			"type": "captain",
+			"id": "surat_71192",
+			"set": ["71192"],
+			"name": "Surat",
+			"cost": 3,
+			"skill": 5,
+			"talents": 0,
+			"text": "Action: Place a ["scan"] Token beside your ship. If you do not have a ["tech"] Upgrade deployed to your ship, place the Auxiliary Power Token beside your ship as well,
+			"unique": true,
+			"factions": ["kazon"]
+		},
+	],
+	
+	"upgrades": [
+		{
+			"type": "crew",
+			"id": "lorrum_71192",
+			"set": ["71192"],
+			"name": "Lorrum",
+			"cost": 4,
+			"text": "When attacking with your Primary Weapon during the Roll Attack Dice step. Instead of rolling your normal number of attack dice you may discard this card to roll a number of attack dice equal to the SP cost of one upgrade on the target ship(max 4 dice).",
+			"unique": true,
+			"factions": ["kazon"]
+		},
+			{
+			"type": "crew",
+			"id": "kazon_gurad_71192",
+			"set": ["71192"],
+			"name": "Kazon Gurad",
+			"cost": 4,
+			"text": "During the Activation Phase, you may discard this card to place an ["evade"] Token beside your ship, even if there is already one there. If you do so place an Auxiliary Power Token beside your ship. /n/n No ship may be equiped with more then one "Kazon Gurad" Upgrade.",
+			"unique": false,
+			"factions": ["kazon"]
+		},
+		{
+			"type": "weapon",
+			"id": "photonic_charges_71192",
+			"set": ["71192"],
+			"name": "Photonic Charges",
+			"cost": 3,
+			"attack": 0,
+			"range": "1 - 2",
+			"text": "Attack: Place 3 Time Tokens on this card to preform this attack. /n/n Place an Auxiliary Power Token beside the target ship if there if there is at lease one uncancled [hit] or [crit] result.",
+			"unique": false,
+			"factions": ["kazon"]
+		},
+			{
+			"type": "weapon",
+			"id": "aft_torpedo_launcher_71192",
+			"set": ["71192"],
+			"name": "Aft Torpedo Launcher",
+			"cost": 3,
+			"attack": 4,
+			"range": "2 - 3",
+			"text": "Attack:(Target Lock) Spend your target lock and place 3 Time Tokens on this card to preform this attack. /n/n You may only fire this weapon at a ship that is not in your forward firing arc.",
+			"unique": false,
+			"factions": ["kazon"]
+		},
+			{
+			"type": "weapon",
+			"id": "variable_yield_Charges_71192",
+			"set": ["71192"],
+			"name": "Variale Yield Charges",
+			"cost": 2,
+			"text": "When attacking with one of your "Photonic Charges" Upgrades, during the Roll Attack Dice Step. You may disable this card to gain +1 attack die for that attack. If you do so place an Auxiliary Power Token beside your ship.",
+			"unique": false,
+			"factions": ["kazon"]
+		},
+		{
+			"type": "any",
+			"id": "unremarkable_species_71192",
+			"set": ["71192"],
+			"name": "Unremarkable Species",
+			"cost": 5,
+			"text": "This Upgrade does not require an Upgrade slot and my not be deployed to a Borg ship. /n/n While this upgrade is equipped to your ship your Kazon Upgrades cannot be targed by the Borg Assimilation Tubules Upgrade. In addation when defending against a Borg ship, during the Roll Defense Dice step roll +2 defence dice. This Upgrade costs +5SP if purchased for a non Kazon ship and no ship may be equipped with more then 1 "Unremarkable Species" Upgrade.",
+			"unique": false,
+			"factions": ["kazon"]
+		}
+	]
+
+}
