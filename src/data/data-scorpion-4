@@ -1,0 +1,122 @@
+{
+
+	"sets": [
+		{
+			"type": "set",
+			"id": "71203",
+			"name": "Scorpion 4",
+			"releaseDate": "2015-11-01",
+			"parentSet": "Wave 20"
+		}
+	],
+	
+	"ships": [
+		{
+			"type": "ship",
+			"id": "scorpion_4_71203",
+			"set": ["71193"],
+			"name": "Scorpion 4",
+			"class": "Scorpion Class Attack Squadron",
+			"actions": ["evade","target-lock"],
+			"upgrades": ["squadron","squadron","squadron"],
+			"attack": 4,
+			"agility": 0,
+			"hull": 1,
+			"shields": 1,
+			"cost": 24,
+			"skill": 6,
+			"text": "Attack Squadron Tokens:5 /n/n If you attack during a round in which you preformed a Come About Maneuver, during the Modify Attack Dice step, you may re-roll all of your blank results.",
+			"unique": true,
+			"factions": ["romulan"],
+			"squadron": true
+		},
+		
+	],
+	
+	"upgrades": [
+		{
+			"type": "Squadron",
+			"id": "cloaked_fighters_71203",
+			"set": ["71203"],
+			"name": "Cloaked Fighters",
+			"cost": 4,
+			"text": "Add the ["cloak"] Action to your Action Bar. /n/n While your squadrons Cloaked you cannot preform a maneuver with a speed greater than 1. /n/n This Upgrade may only be purchased for a Scorpion class attack squadron and no ship my have more then one "Cloaked Fighters" Upgrade",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+				{
+			"type": "Squadron",
+			"id": "hidden_formation_71203",
+			"set": ["71203"],
+			"name": "Hidden Formation",
+			"cost": 5,
+			"text": "Add the ["echo"] Action to your Action Bar. When preforming the ["echo"] Action you may only use a 1 Maneuver Template. /n/n If your squadron is Cloaked after preforming a ["Echo"] Action, you may discard this card to immediately preform an additional ["echo"] Action as a free Action. If you do so place an Auxiliary Power Token beside your ship.",
+			"unique": true,
+			"factions": ["romulan"]
+		},		
+		{
+			"type": "Squadron",
+			"id": "cover_fire_71203",
+			"set": ["71203"],
+			"name": "Cover Fire",
+			"cost": 4,
+			"text": "When defending during the Roll Defense Dice step, you may discard this card to toll equal to your current Primary Weapon value. /n/n No ship may be equipped with more than one "Cover Fire" Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},		
+		{
+			"type": "Squadron",
+			"id": "focused_strike_71203",
+			"set": ["71203"],
+			"name": "Focused Strike",
+			"cost": 5,
+			"text": "If you damage an opposing ships Hull with a critical damage. You may discard this card to draw 3 Damage Cards(instead of 1) and choose which one to place beside the enemy's Ship Card. Discard the unused Damage Cards.",
+			"unique": false,
+			"factions": ["romulan"]
+		},		
+		{
+			"type": "Squadron",
+			"id": "torpedo_attack_71203",
+			"set": ["71203"],
+			"name": "Torpedo Attack",
+			"cost": 4,
+			"attack": 4,
+			"range": "1 - 2",
+			"text": "Attack: (Target Lock) Spend your target lock and place 3 time tokens on this card to preform this attack. You may fire this weapon form your forward or rear firing arcs. /n/n No Ship may be equipped with more than one "Torpedo Attack" Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},		
+		{
+			"type": "Squadron",
+			"id": "reconnaissance_71203",
+			"set": ["71203"],
+			"name": "Reconnaissance",
+			"cost": 2,
+			"text": "Action: Place a ["scan"] and an Auxiliary Power Token beside your ship.",
+			"unique": false,
+			"factions": ["romulan"]
+		},		
+		{
+			"type": "Squadron",
+			"id": "thrusters_71203",
+			"set": ["71203"],
+			"name": "Thrusters",
+			"cost": 3,
+			"text": "During the Activation Phase, if your ship is not Cloaked and you reveal a green maneuver dial you may discard this card to add 1 to your maneuver speed.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+		{
+			"type": "Squadron",
+			"id": "support_ship_71203",
+			"set": ["71203"],
+			"name": "Support Ship",
+			"cost": 4,
+			"text": "When your last Attack Squadron Token is destroyed, discard this card instead of removing that Token. /n/n No ship may be equipped with more than one "Support Ship" Upgrade.",
+			"unique": false,
+			"factions": ["romulan"]
+		},
+
+	]
+
+}
